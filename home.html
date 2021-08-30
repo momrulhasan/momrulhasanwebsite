@@ -1,9 +1,73 @@
 <!DOCTYPE html lang="en-US">
     <head>
         <meta charset ="utf-8">
-    <tittle>This is a tittle</tittle>
+        <link rel="stylesheet" href="styles.css">
+        <title>All HTML Code in one webpage</title>
+  <style>
+            h3 {
+              color: rgb(191, 0, 255);
+              font-family:fantasy;
+              font-size: 300%;
+            }
+            h5 {
+              color: red;
+              font-family:'Times New Roman', Times, serif;
+              font-size: 300%;
+              border: 5px solid rgb(0, 0, 0);
+              background-color: darkorange;
+              padding: 10px;
+              margin: 50px;
+              line-height: 1;
+            }
+                        a:link, a:visited {
+            background-color: #ff1100;
+            color: rgb(121, 242, 255);
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration:green ;
+            display: inline-block;
+            }
+            a:hover {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            a:active {
+            color: rgb(0, 247, 255);
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            img {
+            width: 100%;
+            }
+            body {
+            background-image: url('C:\Users\momru\Downloads\tree.psd');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+
+                    table {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            border-collapse: collapse;
+            width: 100%;
+          }
+
+          td, th {
+            border: 1px solid #fff134;
+            padding: 8px;
+          }
+
+          tr:nth-child(even) {
+            background-color: #ff0000;
+          }
+  
+    </style>
+        
+        
+        
     </head>
-    <body style="background-color:#b6b6b6; text-align: center;">
+    <body style="background: rgba(255, 145, 145, 0.693); text-align: center;">
 
         <h1>My First Heading</h1>
         <p style="font-size: 50px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">My first paragraph.</p>
@@ -12,7 +76,7 @@
         <img src="C:\Users\momru\OneDrive\Pictures\20210617_172607.jpg" alt="This is an image" width="600" height="500">
         </br>
         <hr>
-        <p style="color: green;">Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.</p><hr>
+        <div style="background-image: url('C:\Users\momru\OneDrive\Pictures\20210624_170021.jpg');">Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.</div><hr>
         <h1 style="font-size:110px;">Heading 1</h1>
         <h2 style="color: lawngreen; font-style:inherit;">Heading 2</h2>
         <h3>Heading 3</h3>
@@ -52,12 +116,39 @@
             Box 564, Disneyland<br>
             USA
             </address><br>
+            <a href="https://www.trepup.com/momrulhasan">   This is a link </a><br>
 
             <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p><br>
             <bdo dir="rtl">This line will be written from right to left(gnittirw esrevnI)</bdo><br>
 
             <!--write youre comment on html coding by this-->
         <p style="background-color: rgb(136, 255, 0); border: 4px rgb(250, 6, 238); font-size: 40; color: rgb(255, 0, 0);">Example of colour</p>
+
+        <a href="https://peaceloverpl.wordpress.com/">
+            <img src="C:\Users\momru\OneDrive\Pictures\20210616_093236.jpg" alt="HTML tutorial" style=" float: right; background-color: darkturquoise; border: rgb(41, 68, 77)">
+            </a><br>
+
+
+
+
+            <h2>Image Maps</h2>
+            <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+            
+            <img src="C:\Users\momru\OneDrive\Pictures\20210622_181538.jpg" alt="Flower" usemap="#Workmap" width="400" height="379">
+            
+            <map name="#Workmap">
+              <area shape="rect" coords="34, 44, 270, 350" alt="Computer" href="computer.htm" onclick="myFunction()">
+              <area shape="rect" coords="290,172,333,250" alt="Phone" href="facebook.com">
+              <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+            </map>
+            
+            <script>
+                function myFunction() {
+                  alert("You clicked the coffee cup!");
+                }
+                </script>
+
+            <br>
         
 
 
@@ -72,6 +163,78 @@
         <ins> This text was inserted</ins><br>
         Now I will <sub>show some</sub> sub <sup>And Sup </sup> Tag<br>
         2<sub>3<sup>4</sup><sup>56</sup></sub><sub>45</sub><br>
+        <p><a href="#C4">Jump to Chapter 4</a></p>
+        <p><a href="#C10">Jump to Chapter 10</a></p>
+        <a href="https://peaceloverpl.wordpress.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6OlSiZIpmpu3B5aC3W6XoMHs3dw2T5DPHQ&usqp=CAU" alt="Image"></a>
+
+        <h2>Chapter 1</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 2</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 3</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C4">Chapter 4</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 5</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 6</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 7</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 8</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 9</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C10">Chapter 10</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 11</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 12</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 13</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 14</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 15</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 16</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 17</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 18</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 19</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 20</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 21</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 22</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 23</h2>
+        <p>This chapter explains ba bla bla</p><br>
 
 
         <pre>
@@ -95,6 +258,45 @@
                 <input type="password" name ="password" id="password"> 
             </div>
             </form>
+            
+
+            <table>
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+            </table>
 
 
 
