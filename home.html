@@ -4,6 +4,32 @@
         <link rel="stylesheet" href="styles.css">
         <title>All HTML Code in one webpage</title>
   <style>
+
+
+              ul {
+                diplay: block;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #038376;
+              }
+
+              li {
+                float: left;
+              }
+
+              li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+              }
+
+              li a:hover {
+                background-color: #111111;
+              }
             h3 {
               color: rgb(191, 0, 255);
               font-family:fantasy;
@@ -67,7 +93,7 @@
         
         
     </head>
-    <body style="background: rgba(255, 145, 145, 0.693); text-align: center;">
+    <body style="background: rgba(255, 145, 145, 0.693)">
 
         <h1>My First Heading</h1>
         <p style="font-size: 50px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">My first paragraph.</p>
@@ -297,6 +323,106 @@
                 <td>Italy</td>
               </tr>
             </table>
+            <h2>Set the height of the second row to 200 pixels</h2>
+
+            <table style="width:100%">
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th> 
+                <th>Age</th>
+              </tr>
+              <tr style="height:200px">
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+              </tr>
+            </table>
+            
+            <h2>Table With Rounded Borders</h2>
+            
+            <p>Use the CSS border-radius property to add rounded corners to the table cells.</p>
+            
+            <table style="width:100%">
+                <colgroup>
+                    <col span="2" style="background-color: #D6EEEE">
+                  </colgroup>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th> 
+                <th>Age</th>
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+              </tr>
+            </table>
+            <table>
+                <tr>
+                  <th rowspan="38">Name</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>43</td>
+                </tr>
+                <tr>
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>57</td>
+                </tr>
+              </table>
+              <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+              <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+              <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+              </dl>
+             <dt>
+               <li>lets see</li>
+               <li>ijj</li>
+               <li>hi hlw</li>
+             </dt>
+             <br>
+             <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+            <div>Hello World</div>
+             
 
 
 
